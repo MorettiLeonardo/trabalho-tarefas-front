@@ -1,0 +1,34 @@
+.navbar {
+    background: #ffffff;
+    padding: 15px 25px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item { }
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    background: #007bff;
+    color: #fff;
+}
+
+.nav-link:active {
+    transform: scale(0.97);
+}
