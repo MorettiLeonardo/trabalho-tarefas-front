@@ -1,0 +1,66 @@
+/* Container geral */
+.tasks-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.tasks-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Formulário (mesmo da UsersPage) */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #357ac9;
+}
+
+/* Lista */
+.tasks-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card */
+.task-card {
+  background: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.task-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.task-email {
+  color: #444;
+}

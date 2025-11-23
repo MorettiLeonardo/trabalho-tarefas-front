@@ -1,0 +1,105 @@
+/* Container geral */
+.users-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Título */
+.users-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Formulário */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #357ac9;
+}
+
+/* Lista de usuários */
+.users-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-card {
+  background: #f5f5f5;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.user-id {
+  font-size: 14px;
+  color: #555;
+}
+
+.user-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.user-email {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Botões dentro de cada card */
+.user-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-secondary {
+  padding: 8px 16px;
+  background-color: #777;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.btn-secondary:hover {
+  background-color: #555;
+}
+
+.btn-danger {
+  padding: 8px 16px;
+  background-color: #d9534f;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+.btn-danger:hover {
+  background-color: #b94743;
+}

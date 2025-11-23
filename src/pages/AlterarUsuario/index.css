@@ -1,0 +1,91 @@
+.alterar-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Títulos */
+.title {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Botões */
+.btn-primary,
+.btn-secondary,
+.btn-danger {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+.btn-primary {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #357ac9;
+}
+
+.btn-secondary {
+  background-color: #999;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #7a7a7a;
+}
+
+.btn-danger {
+  background-color: #e24a4a;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c73636;
+}
+
+/* Cards */
+.user-card,
+.create-task-card,
+.task-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box; /* impede estourar o card */
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+
+/* Form editando */
+.edit-user-form {
+  margin-top: 15px;
+}
+
+/* Grupo de botões */
+.btn-group {
+  margin-top: 12px;
+}
